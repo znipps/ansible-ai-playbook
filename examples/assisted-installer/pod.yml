@@ -9,7 +9,7 @@ spec:
   containers:
   - args:
     - run-postgresql
-    image: "quay.io/centos7/postgresql-12-centos7:latest"
+    image: "quay.io/centos7/postgresql-12-centos7:centos7"
     name: db
     volumeMounts:
     - mountPath: /var/lib/pgsql/data:z
