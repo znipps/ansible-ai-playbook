@@ -33,7 +33,7 @@ echo "Getting Config files"
 
 for file in "pod.yml" "configmap.yml"
 do
-    curl -s "https://raw.githubusercontent.com/znipps/ansible-ai-playbook/main/examples/assisted-installer/${file}"  > ${WORKDIR}/${file}
+    cp "${file}"  ${WORKDIR}/${file}
 done
 
 IP_ADDRESS=$(hostname -I | awk '{ print $1}')
