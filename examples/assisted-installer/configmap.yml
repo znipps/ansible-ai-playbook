@@ -26,7 +26,7 @@ data:
     ASSISTED_SERVICE_HOST: 127.0.0.1:8090
     LISTEN_PORT: "8888"
     STORAGE: filesystem
-    RELEASE_IMAGES: '[{"openshift_version":"4.15.7-scos-multi","cpu_architecture":"multi","cpu_architectures":["x86_64","arm64"],"url":"quay.io/lxheryer/scos-release:4.15.7-scos-multi","version":"4.15.7-scos-multi"}]'
+    RELEASE_IMAGES: '[{"openshift_version":"4.15.8-scos-multi","cpu_architecture":"multi","cpu_architectures":["x86_64","arm64"],"url":"quay.io/lxheryer/scos-release:4.15.8-scos-multi","version":"4.15.8-scos-multi"}]'
     OS_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","url":"https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.15/latest/rhcos-4.15.0-x86_64-live.x86_64.iso","version":"415.92.202405281402-0"},{"openshift_version":"4.15","cpu_architecture":"arm64","url":"https://mirror.openshift.com/pub/openshift-v4/aarch64/dependencies/rhcos/4.15/latest/rhcos-4.15.0-aarch64-live.aarch64.iso","version":"415.92.202405281402-0"}]'
     NTP_DEFAULT_SERVER: ""
     IPV6_SUPPORT: true
