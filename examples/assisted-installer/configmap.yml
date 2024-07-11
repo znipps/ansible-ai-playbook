@@ -27,7 +27,7 @@ data:
     LISTEN_PORT: "8888"
     STORAGE: filesystem
     RELEASE_IMAGES: '[{"openshift_version":"4.15.7-scos-multi","cpu_architecture":"multi","cpu_architectures":["x86_64","arm64"],"url":"quay.io/lxheryer/scos-release:4.15.7-scos-multi","version":"4.15.7-scos-multi"}]'
-    OS_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","url":"https://devfun.s3.amazonaws.com/scos/builds/latest/x86_64/scos-415.9.202406251159-0-live.x86_64.iso","version":"415.9.202406251159-0"},{"openshift_version":"4.15","cpu_architecture":"arm64","url":"https://devfun.s3.amazonaws.com/scos/builds/latest/aarch64/scos-415.9.202406250755-0-live.aarch64.iso","version":"415.9.202406250755-0"}]'
+    OS_IMAGES: '[{"openshift_version":"4.15","cpu_architecture":"x86_64","url":"https://mirror.openshift.com/pub/openshift-v4/x86_64/dependencies/rhcos/4.15/latest/rhcos-4.15.0-x86_64-live.x86_64.iso","version":"415.92.202405281402-0"},{"openshift_version":"4.15","cpu_architecture":"arm64","url":"https://mirror.openshift.com/pub/openshift-v4/aarch64/dependencies/rhcos/4.15/latest/rhcos-4.15.0-aarch64-live.aarch64.iso","version":"415.92.202405281402-0"}]'
     NTP_DEFAULT_SERVER: ""
     IPV6_SUPPORT: true
     HW_VALIDATOR_REQUIREMENTS: '[{"version":"default","master":{"cpu_cores":4,"ram_mib":16384,"disk_size_gb":120,"installation_disk_speed_threshold_ms":10,"network_latency_threshold_ms":100,"packet_loss_percentage":0},"worker":{"cpu_cores":2,"ram_mib":8192,"disk_size_gb":120,"installation_disk_speed_threshold_ms":10,"network_latency_threshold_ms":1000,"packet_loss_percentage":10},"sno":{"cpu_cores":8,"ram_mib":16384,"disk_size_gb":120,"installation_disk_speed_threshold_ms":10}}]'        
